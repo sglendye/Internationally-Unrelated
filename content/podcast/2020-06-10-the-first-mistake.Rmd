@@ -1,0 +1,10 @@
+---
+title: The First Mistake
+author: ''
+date: '2020-06-10'
+slug: the-first-mistake
+categories: []
+tags: []
+---
+
+![](https://www.youtube.com/watch?v=FP7y_f2J6fY){width="560" height="315"}

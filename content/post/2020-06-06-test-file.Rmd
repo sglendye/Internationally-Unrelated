@@ -1,0 +1,15 @@
+---
+title: A Markdown Plot
+author: ~
+date: '2020-06-06'
+slug: test-file
+categories: []
+tags: []
+---
+```{r message=FALSE, warning = FALSE}
+library(ggplot2)
+#data <- read.csv("C:/Users/scott/Desktop/Blogdown Test Data.csv")
+data <- read.csv("Blogdown Test Data.csv")
+ggplot(data, aes(y=Scotts.Ego, x=Hours.You.Spend.Reading.This.Blog))+geom_point()+geom_smooth(method = lm, formula = y ~ splines::bs(x, 3))
+
+```
