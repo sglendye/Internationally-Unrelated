@@ -1,5 +1,5 @@
 ---
-title: A Markdown Plot
+title: Embedding Markdown Plots!
 author: ~
 date: '2020-06-06'
 slug: test-file
@@ -9,7 +9,10 @@ tags: []
 
 
 
-<pre class="r"><code>library(ggplot2)
+<pre class="r"><code>knitr::opts_chunk$set(collapse = TRUE, out.width = &quot;100%&quot;)
+
+
+library(ggplot2)
 #data &lt;- read.csv(&quot;C:/Users/scott/Desktop/Blogdown Test Data.csv&quot;)
 data &lt;- read.csv(&quot;Blogdown Test Data.csv&quot;)
 ggplot(data, aes(y=Scotts.Ego, x=Hours.You.Spend.Reading.This.Blog))+geom_point()+geom_smooth(method = lm, formula = y ~ splines::bs(x, 3))</code></pre>
