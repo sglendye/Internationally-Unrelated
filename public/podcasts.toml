@@ -1,0 +1,14 @@
+---
+title: "Connor And Ryan's Podcast"
+---
+baseurl = "/podcasts"
+languageCode = "en-us"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+[permalinks]
+    podcast = "/:year/:month/:day/:slug/"
+

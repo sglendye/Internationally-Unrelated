@@ -1,0 +1,8 @@
+---
+title: "Connor And Ryan's Podcast"
+---
+
+
+[permalinks]
+    podcast = "/:year/:month/:day/:slug/"
+

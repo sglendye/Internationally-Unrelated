@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internationally Unrelated</title>
+    <link>/</link>
+    <description>Recent content on Internationally Unrelated</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Suck It Network Theory</title>
+      <link>/2020/06/10/suck-it-network-theory/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/10/suck-it-network-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The First Mistake</title>
+      <link>/podcast/the-first-mistake/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/podcast/the-first-mistake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Markdown Plot</title>
+      <link>/2020/06/06/test-file/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/06/test-file/</guid>
+      <description>library(ggplot2)#data &amp;lt;- read.csv(&amp;quot;C:/Users/scott/Desktop/Blogdown Test Data.csv&amp;quot;)data &amp;lt;- read.csv(&amp;quot;Blogdown Test Data.csv&amp;quot;)ggplot(data, aes(y=Scotts.Ego, x=Hours.You.Spend.Reading.This.Blog))+geom_point()+geom_smooth(method = lm, formula = y ~ splines::bs(x, 3))</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>/2016/12/30/a-plain-markdown-post/</link>
+      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      
+      <guid>/2016/12/30/a-plain-markdown-post/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Welcome to the Tiger Based Team&amp;rsquo;s official blog. This is our little playground for producing (sometimes not so) small analyses and opinions on current affairs, international relations, public policy, history, economics, statistics, or anything else that we may wish to plague the world with. Does that sound interesting? If yes, then clearly you haven&amp;rsquo;t actually read any of our content yet&amp;hellip;
+    Huge credit to all involved in the Blogdown and Hugo Lithium projects.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/2015/07/23/hello-r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/hello-r-markdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Connor And Ryan&#39;s Podcast</title>
+      <link>/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/podcasts/</guid>
+      <description>[permalinks]podcast = “/:year/:month/:day/:slug/”</description>
+    </item>
+    
+  </channel>
+</rss>

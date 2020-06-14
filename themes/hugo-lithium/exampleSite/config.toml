@@ -1,12 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Internationally Unrelated"
-subtitle = "It's Anarchy In Here"
+title = "A Hugo website"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -14,16 +12,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
-    
 [[menu.main]]
-    name = "Beavis & Butthead"
-    url = "/podcast"
-#[[menu.main]]
- #   name = "GitHub"
-  #  url = "https://github.com/rstudio/blogdown"
-#[[menu.main]]
- #   name = "Twitter"
-  #  url = "https://twitter.com/rstudio"
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
 
 [params]
     description = "A website built through Hugo and blogdown."
@@ -41,9 +35,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     favicon = "favicon.ico"
 
     [params.logo]
-   # url = "logo.png"
-    url = "Tiger.jpg"
-    width = 400
-    height = 400
+    url = "logo.png"
+    width = 50
+    height = 50
     alt = "Logo"
 
