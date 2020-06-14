@@ -12,6 +12,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PXQ3byIH0Ho" frameborder="0" allowfullscreen></iframe>
-```
+{{< youtube PXQ3byIH0Ho >}}
+
+#<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PXQ3byIH0Ho" frameborder="0" allowfullscreen></iframe>
