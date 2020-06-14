@@ -9,11 +9,7 @@ tags: []
 
 
 
-<pre class="r"><code>knitr::opts_chunk$set(collapse = TRUE, out.width = &quot;100%&quot;)
-
-
-library(ggplot2)
-#data &lt;- read.csv(&quot;C:/Users/scott/Desktop/Blogdown Test Data.csv&quot;)
+<pre class="r"><code>library(ggplot2)
 data &lt;- read.csv(&quot;Blogdown Test Data.csv&quot;)
 ggplot(data, aes(y=Scotts.Ego, x=Hours.You.Spend.Reading.This.Blog))+geom_point()+geom_smooth(method = lm, formula = y ~ splines::bs(x, 3))</code></pre>
-<p><img src="/post/2020-06-06-test-file_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="/post/2020-06-06-test-file_files/figure-html/unnamed-chunk-1-1.png" width="100%" /></p>
