@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Internationally Unrelated"
 subtitle = "It's Anarchy In Here"
 theme = "hugo-lithium"
-googleAnalytics = ""
+googleAnalytics = "UA-169384491-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -18,9 +18,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Beavis & Butthead"
     url = "/podcast"
-#[[menu.main]]
- #   name = "GitHub"
-  #  url = "https://github.com/rstudio/blogdown"
+
+[[menu.main]]
+    name = "Blogdown Git"
+    url = "https://github.com/rstudio/blogdown"
+    
+[[menu.main]]
+    name = "The IU Git"
+    url = "https://github.com/sglendye/Internationally-Unrelated"    
+    
 #[[menu.main]]
  #   name = "Twitter"
   #  url = "https://twitter.com/rstudio"

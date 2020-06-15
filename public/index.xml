@@ -26,16 +26,16 @@
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/podcast/the-first-mistake/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
-      <title>A Markdown Plot</title>
+      <title>Embedding Markdown Plots!</title>
       <link>/2020/06/06/test-file/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/06/06/test-file/</guid>
-      <description>library(ggplot2)#data &amp;lt;- read.csv(&amp;quot;C:/Users/scott/Desktop/Blogdown Test Data.csv&amp;quot;)data &amp;lt;- read.csv(&amp;quot;Blogdown Test Data.csv&amp;quot;)ggplot(data, aes(y=Scotts.Ego, x=Hours.You.Spend.Reading.This.Blog))+geom_point()+geom_smooth(method = lm, formula = y ~ splines::bs(x, 3))</description>
+      <description>library(ggplot2)data &amp;lt;- read.csv(&amp;quot;Blogdown Test Data.csv&amp;quot;)ggplot(data, aes(y=Scotts.Ego, x=Hours.You.Spend.Reading.This.Blog))+geom_point()+geom_smooth(method = lm, formula = y ~ splines::bs(x, 3))</description>
     </item>
     
     <item>
